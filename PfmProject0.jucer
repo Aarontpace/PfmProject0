@@ -15,7 +15,8 @@
   <EXPORTFORMATS>
     <VS2019 targetFolder="Builds/VisualStudio2019">
       <CONFIGURATIONS>
-        <CONFIGURATION isDebug="1" name="Debug" vst3BinaryLocation="C:\Program Files\Common Files\VST3"/>
+        <CONFIGURATION isDebug="1" name="Debug" vst3BinaryLocation="C:\Users\Aaron Pace\Desktop\Programming\VST3 Testing"
+                       enablePluginBinaryCopyStep="1"/>
         <CONFIGURATION isDebug="0" name="Release"/>
       </CONFIGURATIONS>
       <MODULEPATHS>

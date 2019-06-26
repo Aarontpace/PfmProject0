@@ -8,6 +8,15 @@
   ==============================================================================
 */
 
+
+
+/*
+TODO:
+click anywhere on window - play note
+if click and drag - change pitch
+should we play a sound?
+*/
+
 #pragma once
 
 #include "../JuceLibraryCode/JuceHeader.h"
@@ -56,6 +65,8 @@ public:
     void setStateInformation (const void* data, int sizeInBytes) override;
 
 private:
+
+	bool shouldPlaySound = true;
     //==============================================================================
     JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (PfmProject0AudioProcessor)
 };
