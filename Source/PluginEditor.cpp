@@ -22,6 +22,7 @@ PfmProject0AudioProcessorEditor::PfmProject0AudioProcessorEditor (PfmProject0Aud
 
 PfmProject0AudioProcessorEditor::~PfmProject0AudioProcessorEditor()
 {
+	processor.shouldPlaySound = false;
 }
 
 //==============================================================================
@@ -30,7 +31,7 @@ void PfmProject0AudioProcessorEditor::paint (Graphics& g)
     // (Our component is opaque, so we must completely fill the background with a solid colour)
     g.fillAll (getLookAndFeel().findColour (ResizableWindow::backgroundColourId));
 
-    g.setColour (Colours::white);
+    g.setColour (Colours::seagreen);
     g.setFont (15.0f);
     g.drawFittedText ("Hello World!", getLocalBounds(), Justification::centred, 1);
 }
@@ -39,4 +40,15 @@ void PfmProject0AudioProcessorEditor::resized()
 {
     // This is generally where you'll want to lay out the positions of any
     // subcomponents in your editor..
+}
+
+
+void PfmProject0AudioProcessorEditor::mouseDown(const MouseEvent& e)
+{
+	processor.shouldPlaySound = !processor.shouldPlaySound;
+}
+
+void PfmProject0AudioProcessorEditor::mouseUp(const MouseEvent& e)
+{
+	//processor.shouldPlaySound = false;
 }
