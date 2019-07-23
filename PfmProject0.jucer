@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<JUCERPROJECT id="h1OMze" name="PfmProject0" projectType="audioplug" jucerVersion="5.4.3">
+<JUCERPROJECT id="h1OMze" name="PfmProject0" projectType="audioplug" jucerVersion="5.4.3"
+              pluginCharacteristicsValue="pluginIsSynth,pluginWantsMidiIn">
   <MAINGROUP id="YPKsaT" name="PfmProject0">
     <GROUP id="{8AB1C635-07E5-74E3-E255-07A0C16F1111}" name="Source">
       <FILE id="X0s5V0" name="PluginProcessor.cpp" compile="1" resource="0"

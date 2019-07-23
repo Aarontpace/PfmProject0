@@ -47,16 +47,14 @@
     </LAYOUT>
   </FILTER>
   <FILTER uid="4" x="0.28875" y="0.4818548387096774" uiLastX_Normal="216"
-          uiLastY_Normal="488" uiopen_Normal="0">
-    <PLUGIN name="PfmProject0" format="VST3" category="Fx" manufacturer="yourcompany"
-            version="1.0.0" file="C:\Users\Aaron Pace\Desktop\Programming\VST3 Testing\PfmProject0.vst3"
-            uid="e953f98c" isInstrument="0" fileTime="16b8bca12f4" infoUpdateTime="16b8bd1c377"
-            numInputs="2" numOutputs="2" isShell="0"/>
-    <STATE>152.VMjLg7H....OVMEUy.Ea0cVZtMEcgQWY9vSRC8Vav8lak4Fc9XCLt3hKt3hKt3hKt3hYRUUSTEETIckVwTjQisVTTgkdEYjKAQjYPQSPWgUdMcjKAQjct3hdA4hKt3hKt3hKtnTUv.UQAslXuk0UXoWUFE0YQcEV77RRC8Vav8lak4Fc9vyKVMEUy.Ea0cVZtMEcgQWY9..</STATE>
+          uiLastY_Normal="488" uiopen_Normal="1">
+    <PLUGIN name="PfmProject0" format="VST3" category="Instrument|Synth"
+            manufacturer="yourcompany" version="1.0.0" file="C:\Users\Aaron Pace\Desktop\Programming\VST3 Testing\PfmProject0.vst3"
+            uid="e953f98c" isInstrument="1" fileTime="16c1a27fc01" infoUpdateTime="16c1a29a66d"
+            numInputs="0" numOutputs="2" isShell="0"/>
+    <STATE>307.VMjLgnR....OVMEUy.Ea0cVZtMEcgQWY9vSRC8Vav8lak4Fc9DyM03BTYYUXSsVago2YrU0Y2Y0XqE0ZhsVUF4hKDYlKPUjZTEDLD4RPHAkVpEDTtXEU1Qka3X0XxEkQTIWQVQ1T3X0XzEkQTcVRWg0bAY1XmcmUisVPP4RRP4hKt3hKt3hKt3hKt3BUAkTUP0TPP4hPpYTVtPjYBUDRwjkYLESXxgCah4BVWgkbUcUVtPDTBQjKt3hKt3hKt3xJO4hKt3hKt3hKt3hKtnTUv.UQAslXuk0UXoWUFE0YQcEVtPDTtHzZGI1YMIiXtPDTtLjKPcjKt3hKt3hKt3haTU0PUQDU3sFaicVTWkEQEYzXmEDOujzPu0Fbu4VYtQmO77hUSQ0LPwVcmklaSQWXzUlO..</STATE>
     <LAYOUT>
-      <INPUTS>
-        <BUS index="0" layout="L R"/>
-      </INPUTS>
+      <INPUTS/>
       <OUTPUTS>
         <BUS index="0" layout="L R"/>
       </OUTPUTS>

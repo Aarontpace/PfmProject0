@@ -14,6 +14,7 @@
 TODO:
 click anywhere on window - play note
 if click and drag - change pitch
+daw memory n stuff
 */
 
 #pragma once
@@ -62,10 +63,12 @@ public:
     //==============================================================================
     void getStateInformation (MemoryBlock& destData) override;
     void setStateInformation (const void* data, int sizeInBytes) override;
-	bool shouldPlaySound = false;
+	AudioParameterBool* shouldPlaySound = nullptr; //= false;
+	AudioParameterFloat* bgColor = nullptr;
+	static void updateAutoParam(RangedAudioParameter*, float value);
 private:
-
-	
+	AudioProcessorValueTreeState aptvs;
+	Random r;
     //==============================================================================
     JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (PfmProject0AudioProcessor)
 };
